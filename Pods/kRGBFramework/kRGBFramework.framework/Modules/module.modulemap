@@ -1,0 +1,10 @@
+framework module kRGBFramework {
+  umbrella header "kRGBFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module kRGBFramework.Swift {
+    header "kRGBFramework-Swift.h"
+}
